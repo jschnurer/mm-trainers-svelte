@@ -83,7 +83,7 @@
   }
 </style>
 
-<Link to="/trainers-list">&lt; Back to trainers</Link>
+<Link to={window.__host_dir + "/trainers-list"}>&lt; Back to trainers</Link>
 
 {#each Object.keys(locationData).sort((a, b) => (a < b ? -1 : 1)) as locName}
   <h2>{locName}</h2>

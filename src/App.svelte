@@ -34,8 +34,8 @@
 	let output = JSON.stringify(trainers, null, 3);
 	*/
   const showToDos = () => {
-    if (location.href !== "/check-list") {
-      navigate("/check-list");
+    if (location.href !== window.__host_dir + "/check-list") {
+      navigate(window.__host_dir + "/check-list");
     }
   };
 </script>
