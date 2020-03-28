@@ -49,8 +49,8 @@
 
 <main>
   <Router>
-    <Route path="trainers-list" component={TrainersList} />
-    <Route path="check-list" component={ToDoList} />
+    <Route path={window.__host_dir + "/trainers-list"} component={TrainersList} />
+    <Route path={window.__host_dir + "/check-list"} component={ToDoList} />
     <Route path="" component={TrainersList} />
   </Router>
 </main>
