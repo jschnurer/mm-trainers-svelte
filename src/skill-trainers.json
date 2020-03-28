@@ -1,0 +1,1085 @@
+{
+  "mm7": {
+     "Axe": {
+        "Category": "Weapon",
+        "Normal": [
+           {
+              "name": "Some blacksmiths",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Turgon Woodsplitter",
+              "location": "Harmondale"
+           },
+           {
+              "name": "Wort Goblinreaver",
+              "location": "Avlee"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Dalin Keenedge",
+              "location": "Stone City"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Karm Stoncleaver",
+              "location": "Tatalia"
+           }
+        ]
+     },
+     "Bow": {
+        "Category": "Weapon",
+        "Normal": [
+           {
+              "name": "Some blacksmiths",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Jaycin Suretail",
+              "location": "Tularean Forest"
+           },
+           {
+              "name": "Wil Rudyman",
+              "location": "Bracada Desert"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Lanshee Ravensight",
+              "location": "Nighon"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Cadric the Steady",
+              "location": "Harmondale"
+           }
+        ]
+     },
+     "Dagger": {
+        "Category": "Weapon",
+        "Normal": [
+           {
+              "name": "Some blacksmiths",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Mortie Ottin",
+              "location": "Tularean Forest"
+           },
+           {
+              "name": "Smiling Jack",
+              "location": "Bracada Desert"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Aznog Slasher",
+              "location": "Nighon"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Tonken Fist",
+              "location": "Tatalia"
+           },
+           {
+              "name": "William Lasker",
+              "location": "Erathian Sewers"
+           }
+        ]
+     },
+     "Mace": {
+        "Category": "Weapon",
+        "Normal": [
+           {
+              "name": "Some blacksmiths",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Norbert Havest",
+              "location": "Erathia"
+           },
+           {
+              "name": "Aldrin Tamloc",
+              "location": "Stone City"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Brother Rotham",
+              "location": "Tatalia"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Patwin Fellenbern",
+              "location": "Deyja"
+           }
+        ]
+     },
+     "Spear": {
+        "Category": "Weapon",
+        "Normal": [
+           {
+              "name": "Some blacksmiths",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Cassandra Holden",
+              "location": "Avlee"
+           },
+           {
+              "name": "Kerin Greydawn",
+              "location": "Tatalia"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Caldern Silverpoint",
+              "location": "Tularean Forest"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Seline Falconeye",
+              "location": "Stone City"
+           }
+        ]
+     },
+     "Staff": {
+        "Category": "Weapon",
+        "Normal": [
+           {
+              "name": "Some blacksmiths",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Tom Withersmythe",
+              "location": "Harmondale"
+           },
+           {
+              "name": "Garic Hawthorne",
+              "location": "Nighon"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Elsie Pederton",
+              "location": "Bracada Desert"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Jillian Mithrit",
+              "location": "Avlee"
+           }
+        ]
+     },
+     "Sword": {
+        "Category": "Weapon",
+        "Normal": [
+           {
+              "name": "Some blacksmiths",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Flynn Ann",
+              "location": "Tatalia"
+           },
+           {
+              "name": "Payge Ravenhill",
+              "location": "Erathia"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Tugor Slicer",
+              "location": "Deyja"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Chadric Townsaver",
+              "location": "Harmondale"
+           }
+        ]
+     },
+     "Unarmed": {
+        "Category": "Weapon",
+        "Normal": [
+           {
+              "name": "Any temple",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Kira Steeleye",
+              "location": "Harmondale"
+           },
+           {
+              "name": "Puddle Stone",
+              "location": "Bracada Desert"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Ulbrecht the Brawler",
+              "location": "Evenmorn Islands"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Norris",
+              "location": "Erathia"
+           }
+        ]
+     },
+     "Blaster": {
+        "Category": "Weapon",
+        "Normal": [
+           {
+              "name": "Complete the \"Kill Tolberti\" or \"Kill Robert the Wise\" quest",
+              "location": "Celeste (Light) or The Pit (Dark)"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Sir Caneghem",
+              "location": "Celeste (Light)"
+           },
+           {
+              "name": "Dark Shade",
+              "location": "The Pit (Dark)"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Crag Hack",
+              "location": "Celeste (Light)"
+           },
+           {
+              "name": "Maximus",
+              "location": "The Pit (Dark)"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Resurectra",
+              "location": "Castle Lambent (Light)"
+           },
+           {
+              "name": "Kastore",
+              "location": "Castle Gloaming (Dark)"
+           }
+        ]
+     },
+     "Leather": {
+        "Category": "Armor",
+        "Normal": [
+           {
+              "name": "Some armormsmiths",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Douglas Iverson",
+              "location": "Harmondale"
+           },
+           {
+              "name": "Michael Deerhunter",
+              "location": "Avlee"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Rabida Nelson",
+              "location": "Nighon"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Miyon the Quick",
+              "location": "Tularean Forest"
+           }
+        ]
+     },
+     "Chain": {
+        "Category": "Armor",
+        "Normal": [
+           {
+              "name": "Some armormsmiths",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Gilad Bith",
+              "location": "Tularean Forest"
+           },
+           {
+              "name": "Tricia Steelcoif",
+              "location": "Tatalia"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Mediwari Dragontracker",
+              "location": "Avlee"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Halian Nevermore",
+              "location": "Deyja"
+           }
+        ]
+     },
+     "Plate": {
+        "Category": "Armor",
+        "Normal": [
+           {
+              "name": "Some armormsmiths",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Wedrik Lotts",
+              "location": "Tatalia"
+           },
+           {
+              "name": "Critias Burnkindle",
+              "location": "Stone City"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Dekian Forgewright",
+              "location": "Erathia"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Brand the Maker",
+              "location": "Bracada Desert"
+           }
+        ]
+     },
+     "Shield": {
+        "Category": "Armor",
+        "Normal": [
+           {
+              "name": "Some armormsmiths",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Randal Wolverton",
+              "location": "Erathia"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Isram Gallowswell",
+              "location": "Tatalia"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Fedwin Smithson",
+              "location": "Evenmorn Islands"
+           }
+        ]
+     },
+     "Dodging": {
+        "Category": "Armor",
+        "Normal": [
+           {
+              "name": "Any temple",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Sheldon Mist",
+              "location": "Harmondale"
+           },
+           {
+              "name": "Spyder",
+              "location": "Bracada Desert"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Oberic Crane",
+              "location": "Evenmorn Islands"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Kenneth Wain",
+              "location": "Erathia"
+           }
+        ]
+     },
+     "Fire": {
+        "Category": "Magic",
+        "Normal": [
+           {
+              "name": "Any Fire Guild",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Kindle Treasurestone",
+              "location": "Tularean Forest"
+           },
+           {
+              "name": "Lisha Redding",
+              "location": "Tatalia"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Ashen Temper",
+              "location": "Harmondale"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Blayze",
+              "location": "Erathia"
+           }
+        ]
+     },
+     "Air": {
+        "Category": "Magic",
+        "Normal": [
+           {
+              "name": "Any Air Guild",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Sethrick Windsong",
+              "location": "Tularean Forest"
+           },
+           {
+              "name": "Kyra Stormeye",
+              "location": "Tatalia"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Rislyn Greenstorm",
+              "location": "Avlee"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Gayle",
+              "location": "Bracada Desert"
+           }
+        ]
+     },
+     "Water": {
+        "Category": "Magic",
+        "Normal": [
+           {
+              "name": "Any Water Guild",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Herald Whitecamp",
+              "location": "Tularean Forest"
+           },
+           {
+              "name": "Karla Ravenhair",
+              "location": "Avlee"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Tobren Rainshield",
+              "location": "Nighon"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Torrent",
+              "location": "Harmondale"
+           }
+        ]
+     },
+     "Earth": {
+        "Category": "Magic",
+        "Normal": [
+           {
+              "name": "Any Earth Guild",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Johanson Kern",
+              "location": "Harmondale"
+           },
+           {
+              "name": "Jasper Welamn",
+              "location": "Stone City"
+           }
+        ],
+        "Master": [
+           {
+              "name": "MLara Stonewright",
+              "location": "Tularean Forest"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Avalanche",
+              "location": "Deyja"
+           }
+        ]
+     },
+     "Spirit": {
+        "Category": "Magic",
+        "Normal": [
+           {
+              "name": "Any Spirit Guild",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Bertram Stillwater",
+              "location": "Harmondale"
+           },
+           {
+              "name": "Solomon Riverstone",
+              "location": "Tatalia"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Heather Dreamwright",
+              "location": "Erathia"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Bejamin the Balanced",
+              "location": "Tularean Forest"
+           }
+        ]
+     },
+     "Mind": {
+        "Category": "Magic",
+        "Normal": [
+           {
+              "name": "Any Mind Guild",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Julian the Delver",
+              "location": "Erathia"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Myles Featherwind",
+              "location": "Avlee"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "MXavier Bremen",
+              "location": "Tatalia"
+           }
+        ]
+     },
+     "Body": {
+        "Category": "Magic",
+        "Normal": [
+           {
+              "name": "Any Body Guild",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Straton Hillsman",
+              "location": "Harmondale"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Brother Bombah",
+              "location": "Tatalia"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Tempus",
+              "location": "Avlee"
+           }
+        ]
+     },
+     "Light": {
+        "Category": "Magic",
+        "Normal": [
+           {
+              "name": "Guild of Illumination",
+              "location": "Bracada Desert or Celeste"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Ethan Lightsworn",
+              "location": "Bracada Desert"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Helena Morningstar",
+              "location": "Celeste"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Gavin Magnus",
+              "location": "Castle Lambent"
+           }
+        ]
+     },
+     "Dark": {
+        "Category": "Magic",
+        "Normal": [
+           {
+              "name": "Guild of Night",
+              "location": "The Pit"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Jasp the Nightwalker",
+              "location": "Deyja"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Seth Darkenmore",
+              "location": "The Pit"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Kastore",
+              "location": "Castle Gloaming"
+           },
+           {
+              "name": "Archibald Ironfist",
+              "location": "Castle Gloaming or Avlee"
+           }
+        ]
+     },
+     "Alchemy": {
+        "Category": "Other",
+        "Normal": [
+           {
+              "name": "Any alchemist shop",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Edgar Willowbank",
+              "location": "Tularean Forest"
+           },
+           {
+              "name": "Bryce Watershed",
+              "location": "Bracada Desert"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Elizbeth Winterspoon",
+              "location": "Nighon"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Lucid Apple",
+              "location": "Avlee"
+           }
+        ]
+     },
+     "Armsmaster": {
+        "Category": "Other",
+        "Normal": [
+           {
+              "name": "Any Training Hall",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Edgar Botham",
+              "location": "Deyja"
+           },
+           {
+              "name": "Trent Steel",
+              "location": "Tatalia"
+           },
+           {
+              "name": "Trip Thorinson",
+              "location": "Stone City"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Paula Brightspear",
+              "location": "Avlee"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Lasiter the Slayer",
+              "location": "Eeofol"
+           }
+        ]
+     },
+     "Body Building": {
+        "Category": "Other",
+        "Normal": [
+           {
+              "name": "Any Training Hall",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Kelly Hollyfield",
+              "location": "Bracada Desert"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Wanda Foestryke",
+              "location": "Deyja"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Evandar Thomas",
+              "location": "Nighon"
+           }
+        ]
+     },
+     "Identify Item": {
+        "Category": "Other",
+        "Normal": [
+           {
+              "name": "Any magic shop",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Fention Krewlen",
+              "location": "Harmondale"
+           },
+           {
+              "name": "Hollis the True",
+              "location": "Nighon"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Samuel Benson",
+              "location": "Bracada Desert"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Payge Blueswan",
+              "location": "Tularan Forest"
+           }
+        ]
+     },
+     "Identify Monster": {
+        "Category": "Other",
+        "Normal": [
+           {
+              "name": "Any alchemist shop",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Christie Nosewort",
+              "location": "Nighon"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Jeni Swiftfoot",
+              "location": "Avlee"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Raven the Hunter",
+              "location": "Harmondale"
+           }
+        ]
+     },
+     "Learning": {
+        "Category": "Other",
+        "Normal": [
+           {
+              "name": "Any Elemental Magic guild",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Agatha Putnam",
+              "location": "Deyja"
+           },
+           {
+              "name": "Issac Applebee",
+              "location": "Bracada Desert"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Dorothy Senjac",
+              "location": "Nighon"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "William Smithson",
+              "location": "Evenmorn Islands"
+           }
+        ]
+     },
+     "Disarm Trap": {
+        "Category": "Other",
+        "Normal": [
+           {
+              "name": "Any tavern",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Gretchen Fiddlebone",
+              "location": "Tularean Forest"
+           },
+           {
+              "name": "Taren the Lifter",
+              "location": "Tatalia"
+           },
+           {
+              "name": "William Lasker",
+              "location": "Erathian Sewers"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Leonard Skinner",
+              "location": "Harmondale"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Silk Quicktongue",
+              "location": "Nighon"
+           }
+        ]
+     },
+     "Meditation": {
+        "Category": "Other",
+        "Normal": [
+           {
+              "name": "Any Self Magic guild",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Barbara Wiseman",
+              "location": "Deyja"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Tessa Greensward",
+              "location": "Bracada Desert"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Kaine",
+              "location": "Avlee"
+           }
+        ]
+     },
+     "Merchant": {
+        "Category": "Other",
+        "Normal": [
+           {
+              "name": "Any temple",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Matric Weatherson",
+              "location": "Tularean Forest"
+           },
+           {
+              "name": "Jobber Thain",
+              "location": "Stone City"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Bethold Caverhill",
+              "location": "Evenmorn Islands"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Brigham the Frugal",
+              "location": "Bracada Desert"
+           }
+        ]
+     },
+     "Perception": {
+        "Category": "Other",
+        "Normal": [
+           {
+              "name": "Any tavern",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Gregory Wilder",
+              "location": "Harmondale"
+           },
+           {
+              "name": "Kethric Otterson",
+              "location": "Avlee"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Garret Dotes",
+              "location": "Tularean Forest"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Petra Cleareye",
+              "location": "Deyja"
+           }
+        ]
+     },
+     "Repair Item": {
+        "Category": "Other",
+        "Normal": [
+           {
+              "name": "Any magic shop",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Shane Thomas",
+              "location": "Harmondale"
+           },
+           {
+              "name": "Balan Gizmo",
+              "location": "Stone City"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Thomas Moore",
+              "location": "Tatalia"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Gareth the Fixer",
+              "location": "Erathia"
+           }
+        ]
+     },
+     "Stealing": {
+        "Category": "Other",
+        "Normal": [
+           {
+              "name": "Any tavern",
+              "location": "Anywhere"
+           }
+        ],
+        "Expert": [
+           {
+              "name": "Peryn Lightfingers",
+              "location": "Harmondale"
+           },
+           {
+              "name": "William Lasker",
+              "location": "Erathian Sewers"
+           },
+           {
+              "name": "Elmo the Pincher",
+              "location": "Nighon"
+           }
+        ],
+        "Master": [
+           {
+              "name": "Leane Shadowrunner",
+              "location": "Deyja"
+           }
+        ],
+        "Grandmaster": [
+           {
+              "name": "Everil Nightwalker",
+              "location": "Tatalia"
+           }
+        ]
+     }
+  }
+}
