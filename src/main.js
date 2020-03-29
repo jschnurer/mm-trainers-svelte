@@ -5,3 +5,7 @@ const app = new App({
 });
 
 export default app;
+
+if ("serviceWorker" in navigator && window.__settings.useServiceWorker) {
+	navigator.serviceWorker.register(window.__settings.hostDir + "/service-worker.js");
+}

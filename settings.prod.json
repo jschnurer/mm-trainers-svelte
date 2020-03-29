@@ -1,3 +1,4 @@
 {
-  "hostDir": "/mm-trainers"
+  "hostDir": "/mm-trainers",
+  "useServiceWorker": true
 }

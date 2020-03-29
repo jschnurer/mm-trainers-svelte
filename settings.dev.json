@@ -1,3 +1,4 @@
 {
-  "hostDir": ""
+  "hostDir": "",
+  "useServiceWorker": false
 }
