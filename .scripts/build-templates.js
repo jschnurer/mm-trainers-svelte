@@ -1,5 +1,13 @@
+if (!process.argv || process.argv.length < 3) {
+  return;
+}
+
 var fs = require('fs');
 var path = require('path');
+
+let env = process.argv[2];
+var settings = {};
+readAndApplySettings(`./settings.${env}.json`, settings);
 
 var noCacheFileList = [
   /service-worker.js/,
@@ -23,7 +31,7 @@ function handleServiceWorkerTemplate() {
   // Discovery list of files to cache and inject.
   var cacheableFiles = walk('./public/')
     .filter(fn => !noCacheFileList.find(filter => fn.match(filter)))
-    .map(fn => fn.replace(/\\/g, '/').replace('public/', '/'));
+    .map(fn => fn.replace(/\\/g, '/').replace('public/', settings.hostDir ? settings.hostDir + "/" : "/"));
 
   newSW = newSW.replace(/__fileArray__/g, JSON.stringify(cacheableFiles, null, 1));
 
@@ -44,4 +52,14 @@ function walk(dir) {
 
 function copyTemplate(source, dest) {
   fs.writeFileSync(dest, fs.readFileSync(source, 'utf8'));
+}
+
+function readAndApplySettings(filePath, settingsObj) {
+  if (!fs.existsSync(filePath)) {
+    console.log(`WARNING: ${filePath} not found!`);
+    return;
+  }
+
+  console.log(`Reading settings from ${filePath}...`);
+  Object.assign(settingsObj, JSON.parse(fs.readFileSync(filePath)));
 }
