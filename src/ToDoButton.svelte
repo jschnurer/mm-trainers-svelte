@@ -33,6 +33,6 @@
 </style>
 
 <div class="button" on:click>
-  <img src={window.__host_dir + "/checklist.svg"} alt="checklist" />
+  <img src={window.__settings.hostDir + "/checklist.svg"} alt="checklist" />
   <span transition:scale>{count}</span>
 </div>

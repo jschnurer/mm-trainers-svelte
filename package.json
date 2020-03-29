@@ -2,11 +2,15 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "scripts": {
-    "build": "rollup -c",
+    "build": "run-s build-templates inject:prod build:prod",
+    "build:prod": "rollup -c",
     "autobuild": "rollup -c -w",
-    "dev": "run-p start:dev autobuild",
+    "dev": "run-s build-templates inject:dev start:dev autobuild",
     "start": "sirv public --single",
-    "start:dev": "sirv public --single --dev"
+    "start:dev": "sirv public --single --dev",
+    "build-templates": "node ./.scripts/build-templates.js",
+    "inject:dev": "node ./.scripts/inject-settings.js dev",
+    "inject:prod": "node ./.scripts/inject-settings.js prod"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.0",

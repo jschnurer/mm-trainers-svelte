@@ -34,8 +34,8 @@
 	let output = JSON.stringify(trainers, null, 3);
 	*/
   const showToDos = () => {
-    if (location.href !== window.__host_dir + "/check-list") {
-      navigate(window.__host_dir + "/check-list");
+    if (location.href !== window.__settings.hostDir + "/check-list") {
+      navigate(window.__settings.hostDir + "/check-list");
     }
   };
 </script>
@@ -49,8 +49,8 @@
 
 <main>
   <Router>
-    <Route path={window.__host_dir + "/trainers-list"} component={TrainersList} />
-    <Route path={window.__host_dir + "/check-list"} component={ToDoList} />
+    <Route path={window.__settings.hostDir + "/trainers-list"} component={TrainersList} />
+    <Route path={window.__settings.hostDir + "/check-list"} component={ToDoList} />
     <Route path="" component={TrainersList} />
   </Router>
 </main>
