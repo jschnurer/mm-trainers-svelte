@@ -12,7 +12,9 @@
   let trainerListVisible = false;
 
   $: skills = trainersList[game];
-  $: categories = [...new Set(skills.map(skill => skill.category))];
+  $: categories = [...new Set(skills.map(skill => skill.category))].sort(
+    (a, b) => (a < b ? -1 : 1)
+  );
   $: levels = [...new Set(skills.map(skill => skill.level))];
   $: skillByCat = skills.reduce((acc, skill) => {
     if (!acc.find(x => x.skill === skill.skill)) {
@@ -152,4 +154,4 @@
     on:close={() => (inspectedSkill = null)} />
 {/if}
 
-<ToDoButton on:click={showToDos} game={game} />
+<ToDoButton on:click={showToDos} {game} />
