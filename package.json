@@ -5,7 +5,7 @@
     "build": "run-s templates:prod inject:prod build:prod",
     "build:prod": "rollup -c",
     "autobuild": "rollup -c -w",
-    "dev": "run-s templates:dev inject:dev start:dev autobuild",
+    "dev": "run-s templates:dev inject:dev autobuild start:dev",
     "start": "sirv public --single",
     "start:dev": "sirv public --single --dev",
     "templates:dev": "node ./.scripts/build-templates.js dev",

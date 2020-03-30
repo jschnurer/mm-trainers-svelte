@@ -4,31 +4,14 @@
   import { onMount } from "svelte";
   import { Link } from "svelte-routing";
 
-  $: locationData = 
-    $toDoStore.reduce((acc, reqSkill) => {
-      let skill = trainers.mm7[reqSkill.name];
-      let trainerLocs = skill[reqSkill.level];
+  $: reqTrainers = $toDoStore.reduce((acc, reqSkill) => {
+    let ts = trainers.mm7.filter(
+      t => t.skill === reqSkill.skill && t.level === reqSkill.level
+    );
+    return acc.concat(ts);
+  }, []);
 
-      trainerLocs.forEach(t => {
-        if (!acc[t.location]) {
-          acc[t.location] = {};
-        }
-
-        let loc = acc[t.location];
-
-        if (!loc.skills) {
-          loc.skills = [];
-        }
-
-        loc.skills.push({
-          ...reqSkill,
-          trainer: t.name,
-          category: skill.Category
-        });
-      });
-
-      return acc;
-    }, []);
+  $: locations = [...new Set(reqTrainers.map(x => x.location))];
 
   const sortSkills = (a, b) => {
     if (a.skill < b.skill) {
@@ -40,7 +23,7 @@
 
   const removeSkill = skill => {
     let ix = $toDoStore.findIndex(
-      x => x.name === skill.name && x.level === skill.level
+      x => x.skill === skill.skill && x.level === skill.level
     );
 
     toDoStore.set($toDoStore.filter((x, iix) => iix !== ix));
@@ -83,11 +66,13 @@
   }
 </style>
 
-<Link to={window.__settings.hostDir + "/trainers-list"}>&lt; Back to trainers</Link>
+<Link to={window.__settings.hostDir + '/trainers-list'}>
+  &lt; Back to trainers
+</Link>
 
-{#each Object.keys(locationData).sort((a, b) => (a < b ? -1 : 1)) as locName}
+{#each locations.sort((a, b) => (a < b ? -1 : 1)) as locName}
   <h2>{locName}</h2>
-  {#each locationData[locName].skills.sort(sortSkills) as skill}
+  {#each reqTrainers.filter(t => t.location === locName).sort(sortSkills) as skill}
     <div class={skill.category}>
       <button
         class="delete-button"
@@ -95,8 +80,8 @@
         title="Remove from checklist">
         x
       </button>
-      <span>{skill.name} {skill.level}</span>
-      <label>({skill.trainer})</label>
+      <span>{skill.skill} {skill.level}</span>
+      <label>({skill.name})</label>
     </div>
   {/each}
 {/each}

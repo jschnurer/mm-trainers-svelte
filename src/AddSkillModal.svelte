@@ -3,8 +3,7 @@
   const dispatch = createEventDispatcher();
   
   export let skill = null;
-
-  $: levels = Object.keys(skill).filter(x => x !== "Category" && x !== "name");
+  export let levels = [];
 </script>
 
 <style>
@@ -53,7 +52,7 @@
 
 <div class="fade" />
 <div class="modal">
-  <h2>What level of {skill.name}?</h2>
+  <h2>What level of {skill.skill}?</h2>
   <div class="level-buttons">
     {#each levels as l}
       <button on:click={() => dispatch("levelClick", l) }>{l}</button>

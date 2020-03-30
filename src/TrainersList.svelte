@@ -1,21 +1,45 @@
 <script>
-  import trainers from "./skill-trainers.json";
+  import trainersList from "./skill-trainers.json";
   import SkillLevel from "./SkillLevel.svelte";
   import toDoStore from "./toDoStore.js";
   import AddSkillModal from "./AddSkillModal.svelte";
+  import { Link, navigate } from "svelte-routing";
+  import ToDoButton from "./ToDoButton.svelte";
+
+  export let game = "";
 
   let inspectedSkill = null;
+  let trainerListVisible = false;
 
-  $: skillNames = Object.keys(trainers.mm7);
-  $: skills = skillNames.map(sn => ({
-    ...trainers.mm7[sn],
-    name: sn
-  }));
-  $: categories = [
-    ...new Set(skillNames.map(name => trainers.mm7[name].Category))
-  ];
+  $: skills = trainersList[game];
+  $: categories = [...new Set(skills.map(skill => skill.category))];
+  $: levels = [...new Set(skills.map(skill => skill.level))];
+  $: skillByCat = skills.reduce((acc, skill) => {
+    if (!acc.find(x => x.skill === skill.skill)) {
+      acc.push({ skill: skill.skill, category: skill.category });
+    }
+    return acc;
+  }, []);
 
-  const skillSorter = (a, b) => (a.name < b.name ? -1 : 1);
+  const getSkillsByCategory = (cat) => {
+    let trainers = skills.filter(x => x.category === cat);
+    
+    let unqSkills = [...new Set(trainers.map(x => x.skill))];
+
+    return unqSkills.map(skillName => {
+      let skill = {
+        skill: skillName
+      };
+
+      levels.forEach(lvl => {
+        skill[lvl] = trainers.filter(t => t.skill === skillName && t.level === lvl);
+      });
+
+      return skill;
+    });
+  }
+
+  const skillSorter = (a, b) => (a.skill < b.skill ? -1 : 1);
 
   const showAdd = skill => {
     inspectedSkill = skill;
@@ -24,17 +48,23 @@
   const levelClick = level => {
     let toDos = [...$toDoStore];
     let skill = toDos.find(
-      x => x.name === inspectedSkill.name && x.level === level
+      x => x.skill === inspectedSkill.skill && x.level === level
     );
 
     if (!skill) {
       toDos.push({
-        name: inspectedSkill.name,
+        skill: inspectedSkill.skill,
         level
       });
       toDoStore.set(toDos);
     }
     inspectedSkill = null;
+  };
+
+  const showToDos = () => {
+    if (location.href !== window.__settings.hostDir + `/check-list/${game}`) {
+      navigate(window.__settings.hostDir + `/check-list/${game}`);
+    }
   };
 </script>
 
@@ -72,31 +102,46 @@
   }
 </style>
 
+<Link to={window.__settings.hostDir}>
+  &lt; Back to game list
+</Link>
+
 <h2>Quick Add</h2>
 {#each categories as cat}
   <div class="cat-buttons">
-    {#each skills.filter(x => x.Category === cat).sort(skillSorter) as skill}
-      <button class={cat} on:click={() => showAdd(skill)}>{skill.name}</button>
+    {#each skillByCat.filter(x => x.category === cat).sort(skillSorter) as skill}
+      <button class={cat} on:click={() => showAdd(skill)}>{skill.skill}</button>
     {/each}
   </div>
 {/each}
 
-{#each categories as cat}
-  <h2>{cat}</h2>
-  {#each skills.filter(x => x.Category === cat).sort(skillSorter) as skill}
-    <div class="skill">
-      <b>{skill.name}</b>
-      <SkillLevel level="Normal" trainers={skill.Normal} />
-      <SkillLevel level="Expert" trainers={skill.Expert} />
-      <SkillLevel level="Master" trainers={skill.Master} />
-      <SkillLevel level="Grandmaster" trainers={skill.Grandmaster} />
-    </div>
+<h2>Full Trainer List</h2>
+<button on:click={() => (trainerListVisible = !trainerListVisible)}>
+  Click to
+  {#if trainerListVisible}hide{:else}show{/if}
+</button>
+
+{#if trainerListVisible}
+  {#each categories as cat}
+    <h2>{cat}</h2>
+    {#each getSkillsByCategory(cat) as skill}
+      <div class="skill">
+        <b>{skill.skill}</b>
+        <SkillLevel level="Normal" trainers={skill.Normal} />
+        <SkillLevel level="Expert" trainers={skill.Expert} />
+        <SkillLevel level="Master" trainers={skill.Master} />
+        <SkillLevel level="Grandmaster" trainers={skill.Grandmaster} />
+      </div>
+    {/each}
   {/each}
-{/each}
+{/if}
 
 {#if inspectedSkill}
   <AddSkillModal
     skill={inspectedSkill}
+    levels={levels}
     on:levelClick={({ detail }) => levelClick(detail)}
     on:close={() => (inspectedSkill = null)} />
 {/if}
+
+<ToDoButton on:click={showToDos} />

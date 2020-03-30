@@ -15,6 +15,10 @@
   }
   .trainer {
     display: inline-block;
+    margin-right: 1em;
+  }
+  .trainer:last-child {
+    margin-right: 0;
   }
   .trainer span {
     font-style: italic;
