@@ -402,229 +402,229 @@
       {
          "category": "Magic",
          "level": "Expert",
-         "skill": "trainer",
+         "skill": "Light",
          "name": "Tina Sheltan",
          "location": "Silver Cove"
       },
       {
          "category": "Magic",
          "level": "Expert",
-         "skill": "trainer",
+         "skill": "Light",
          "name": "Nicholas Roth",
          "location": "Kriegspire"
       },
       {
          "category": "Magic",
          "level": "Master",
-         "skill": "trainer",
+         "skill": "Light",
          "name": "Ki Lo Nee",
          "location": "Eel Infested Waters "
       },
       {
          "category": "Magic",
          "level": "Expert",
-         "skill": "trainer",
+         "skill": "Dark",
          "name": "Morton Holovin",
          "location": "Frozen Highlands"
       },
       {
          "category": "Magic",
          "level": "Expert",
-         "skill": "trainer",
+         "skill": "Dark",
          "name": "Ambrose Bruss",
          "location": "Blackshire"
       },
       {
          "category": "Magic",
          "level": "Master",
-         "skill": "trainer",
+         "skill": "Dark",
          "name": "Su Lang Manchu",
-         "location": "Paradise Valley "
+         "location": "Paradise Valley"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Identify",
          "name": "Shelia Loumpus",
          "location": "New Sorpigal"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Identify",
          "name": "Leon Lazaru",
          "location": "Castle Ironfist"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Master",
          "skill": "Identify",
          "name": "Hans Clifford",
          "location": "Free Haven "
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Merchant",
          "name": "Livia Farrel",
          "location": "Free Haven"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Merchant",
          "name": "Casey Ludwig",
          "location": "Mire of the Damned"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Master",
          "skill": "Merchant",
          "name": "Will Ottoman",
          "location": "Silver Cove "
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Repair",
          "name": "Bernard Jacobs",
          "location": "Misty Islands"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Repair",
          "name": "Cyrus Montebleu",
          "location": "Silver Cove"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Master",
          "skill": "Repair",
          "name": "Ryan Tracle",
          "location": "Frozen Highlands "
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Bodybuilding",
          "name": "Erik Salzburg",
          "location": "New Sorpigal"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Bodybuilding",
          "name": "Olaf Berring",
          "location": "Castle Ironfist"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Master",
          "skill": "Bodybuilding",
          "name": "Jason Traveller",
          "location": "Free Haven "
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Meditation",
          "name": "Victor Hazen",
          "location": "New Sorpigal"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Meditation",
          "name": "Clyde Dagget",
          "location": "Silver Cove"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Master",
          "skill": "Meditation",
          "name": "Norio Ariganaka",
          "location": "Misty Islands "
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Perception",
          "name": "Tara D'Cathay",
          "location": "New Sorpigal"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Perception",
          "name": "Shoshi Pertoniki",
          "location": "Bootleg Bay"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Master",
          "skill": "Perception",
          "name": "Macro Galigulia",
          "location": "Mire of the Damned"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Diplomacy",
          "name": "Walter Hargreaves",
          "location": "Castle Ironfist"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Diplomacy",
          "name": "Sylvester Moor",
          "location": "Free haven"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Master",
          "skill": "Diplomacy",
          "name": "Jacques Khol",
          "location": "Frozen Highlands "
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Disarm",
          "name": "Tylor Tailor",
          "location": "Castle Ironfist"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Disarm",
          "name": "Ivan Magyar",
          "location": "Free Haven"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Master",
          "skill": "Disarm",
          "name": "Gabe Lester",
          "location": "Frozen Highlands "
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Learning",
          "name": "Donald Retzer",
          "location": "New Sorpigal"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Expert",
          "skill": "Learning",
          "name": "Elton Astrogate",
          "location": "Castle Ironfist"
       },
       {
-         "category": "Magic",
+         "category": "Other",
          "level": "Master",
          "skill": "Learning",
          "name": "John Tuck",
