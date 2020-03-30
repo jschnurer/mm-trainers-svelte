@@ -21,9 +21,9 @@
     return acc;
   }, []);
 
-  const getSkillsByCategory = (cat) => {
+  const getSkillsByCategory = cat => {
     let trainers = skills.filter(x => x.category === cat);
-    
+
     let unqSkills = [...new Set(trainers.map(x => x.skill))];
 
     return unqSkills.map(skillName => {
@@ -32,12 +32,14 @@
       };
 
       levels.forEach(lvl => {
-        skill[lvl] = trainers.filter(t => t.skill === skillName && t.level === lvl);
+        skill[lvl] = trainers.filter(
+          t => t.skill === skillName && t.level === lvl
+        );
       });
 
       return skill;
     });
-  }
+  };
 
   const skillSorter = (a, b) => (a.skill < b.skill ? -1 : 1);
 
@@ -46,13 +48,19 @@
   };
 
   const levelClick = level => {
-    let toDos = [...$toDoStore];
-    let skill = toDos.find(
+    let toDos = $toDoStore;
+    let toDosForGame = toDos[game];
+    if (!toDosForGame) {
+      toDosForGame = [];
+      toDos[game] = toDosForGame;
+    }
+
+    let skill = toDosForGame.find(
       x => x.skill === inspectedSkill.skill && x.level === level
     );
 
     if (!skill) {
-      toDos.push({
+      toDosForGame.push({
         skill: inspectedSkill.skill,
         level
       });
@@ -102,14 +110,14 @@
   }
 </style>
 
-<Link to={window.__settings.hostDir}>
-  &lt; Back to game list
-</Link>
+<Link to={window.__settings.hostDir}>&lt; Back to game list</Link>
 
 <h2>Quick Add</h2>
 {#each categories as cat}
   <div class="cat-buttons">
-    {#each skillByCat.filter(x => x.category === cat).sort(skillSorter) as skill}
+    {#each skillByCat
+      .filter(x => x.category === cat)
+      .sort(skillSorter) as skill}
       <button class={cat} on:click={() => showAdd(skill)}>{skill.skill}</button>
     {/each}
   </div>
@@ -139,9 +147,9 @@
 {#if inspectedSkill}
   <AddSkillModal
     skill={inspectedSkill}
-    levels={levels}
+    {levels}
     on:levelClick={({ detail }) => levelClick(detail)}
     on:close={() => (inspectedSkill = null)} />
 {/if}
 
-<ToDoButton on:click={showToDos} />
+<ToDoButton on:click={showToDos} game={game} />

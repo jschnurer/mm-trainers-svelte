@@ -1,4 +1,636 @@
 {
+   "mm6": [
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Staff",
+         "name": "Dorf",
+         "location": "New Sorpigal"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Staff",
+         "name": "Calvin Black",
+         "location": "Misty Islands"
+      },
+      {
+         "category": "Weapon",
+         "level": "Master",
+         "skill": "Staff",
+         "name": "Jasper Rice",
+         "location": "Silver Cove"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Sword",
+         "name": "Aaron Strongmun",
+         "location": "Castle Ironfist"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Sword",
+         "name": "Michael Ogilvy",
+         "location": "Free Haven"
+      },
+      {
+         "category": "Weapon",
+         "level": "Master",
+         "skill": "Sword",
+         "name": "Guy Hampton",
+         "location": "Blackshire"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Dagger",
+         "name": "Terrance Smith",
+         "location": "Castle Ironfist"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Dagger",
+         "name": "Logan Dasher",
+         "location": "Free Haven"
+      },
+      {
+         "category": "Weapon",
+         "level": "Master",
+         "skill": "Dagger",
+         "name": "Jules Miles",
+         "location": "Frozen Highlands"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Axe",
+         "name": "Stephan Biggs",
+         "location": "Castle Ironfist"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Axe",
+         "name": "Connie Lettering",
+         "location": "Mire of the Damned"
+      },
+      {
+         "category": "Weapon",
+         "level": "Master",
+         "skill": "Axe",
+         "name": "Avinril Smythers",
+         "location": "Mire of the Damned"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Spear",
+         "name": "Gonzalo Ramirez",
+         "location": "Misty Islands"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Spear",
+         "name": "Sigriv",
+         "location": "Silver Cove"
+      },
+      {
+         "category": "Weapon",
+         "level": "Master",
+         "skill": "Spear",
+         "name": "Burton Rutherford",
+         "location": "Mire of the Damned "
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Bow",
+         "name": "Helen Teal",
+         "location": "Castle Ironfist"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Bow",
+         "name": "Jed Morrison",
+         "location": "Frozen Highlands"
+      },
+      {
+         "category": "Weapon",
+         "level": "Master",
+         "skill": "Bow",
+         "name": "Desmond Weller",
+         "location": "Kriegspire "
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Mace",
+         "name": "Jack Crow",
+         "location": "Mire of the Damned"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Mace",
+         "name": "Dickson Parks",
+         "location": "Frozen Highlands"
+      },
+      {
+         "category": "Weapon",
+         "level": "Master",
+         "skill": "Mace",
+         "name": "Errol Ostermann",
+         "location": "Kriegspire"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Blaster",
+         "name": "Igor",
+         "location": "New Sorpigal"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Blaster",
+         "name": "Pat skylark",
+         "location": "Eel Infested Waters"
+      },
+      {
+         "category": "Weapon",
+         "level": "Master",
+         "skill": "Blaster",
+         "name": "Rexella",
+         "location": "Paradise Valley "
+      },
+      {
+         "category": "Armor",
+         "level": "Expert",
+         "skill": "Shield",
+         "name": "Edgar Carpenter",
+         "location": "Castle Ironfist"
+      },
+      {
+         "category": "Armor",
+         "level": "Expert",
+         "skill": "Shield",
+         "name": "Takao",
+         "location": "Free Haven"
+      },
+      {
+         "category": "Armor",
+         "level": "Master",
+         "skill": "Shield",
+         "name": "Bronwyn Meck",
+         "location": "Blackshire "
+      },
+      {
+         "category": "Armor",
+         "level": "Expert",
+         "skill": "Leather",
+         "name": "Newt Headrow",
+         "location": "Castle Ironfist"
+      },
+      {
+         "category": "Armor",
+         "level": "Expert",
+         "skill": "Leather",
+         "name": "Arthur O'leary",
+         "location": "Misty Islands"
+      },
+      {
+         "category": "Armor",
+         "level": "Master",
+         "skill": "Leather",
+         "name": "Arlen Sailor",
+         "location": "Frozen Highlands "
+      },
+      {
+         "category": "Armor",
+         "level": "Expert",
+         "skill": "Chain",
+         "name": "Rich Hamburg",
+         "location": "Castle Ironfist"
+      },
+      {
+         "category": "Armor",
+         "level": "Expert",
+         "skill": "Chain",
+         "name": "Preston Harper",
+         "location": "Bootleg Bay"
+      },
+      {
+         "category": "Armor",
+         "level": "Master",
+         "skill": "Chain",
+         "name": "David Feather",
+         "location": "Mire of the Damned "
+      },
+      {
+         "category": "Armor",
+         "level": "Expert",
+         "skill": "Plate",
+         "name": "Benito Tellmen",
+         "location": "Castle Ironfist"
+      },
+      {
+         "category": "Armor",
+         "level": "Expert",
+         "skill": "Plate",
+         "name": "Woodrow Albright",
+         "location": "Free Haven"
+      },
+      {
+         "category": "Armor",
+         "level": "Master",
+         "skill": "Plate",
+         "name": "Forest Suthers",
+         "location": "Free Haven "
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Fire",
+         "name": "Isao Magistrus",
+         "location": "New Sorpigal"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Fire",
+         "name": "Jack Van Imp",
+         "location": "Free Haven"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Fire",
+         "name": "Jezebel",
+         "location": "Misty Islands"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Air",
+         "name": "Cheryl Duncan",
+         "location": "New Sorpigal"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Air",
+         "name": "Zodahn Delphi",
+         "location": "Free Haven"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Air",
+         "name": "Caao Salem",
+         "location": "Misty Islands "
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Water",
+         "name": "Douglass Hill",
+         "location": "New Sorpigal"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Water",
+         "name": "Hitomi Mirumoto",
+         "location": "Free Haven"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Water",
+         "name": "Harper Collins",
+         "location": "Misty Islands"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Earth",
+         "name": "Taro",
+         "location": "New Sorpigal"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Earth",
+         "name": "Li Tizare",
+         "location": "Free Haven"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Earth",
+         "name": "Revee Botania",
+         "location": "Silver Cove"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Spirit",
+         "name": "Enoch Highridge",
+         "location": "New Sorpigal"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Spirit",
+         "name": "Michele Blackshire",
+         "location": "Free Haven"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Spirit",
+         "name": "Bishop Inquisitorio",
+         "location": "Castle Ironfist"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Mind",
+         "name": "Virgil Holiday",
+         "location": "New Sorpigal"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Mind",
+         "name": "Mynasia",
+         "location": "Free Haven"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Mind",
+         "name": "Thane Reper",
+         "location": "Silver Cove"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Body",
+         "name": "Abdulai Mahgreb",
+         "location": "New Sorpigal"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Body",
+         "name": "Tim O'Hollihan",
+         "location": "Free Haven"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Body",
+         "name": "Gilbert Hammer",
+         "location": "Silver Cove"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "trainer",
+         "name": "Tina Sheltan",
+         "location": "Silver Cove"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "trainer",
+         "name": "Nicholas Roth",
+         "location": "Kriegspire"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "trainer",
+         "name": "Ki Lo Nee",
+         "location": "Eel Infested Waters "
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "trainer",
+         "name": "Morton Holovin",
+         "location": "Frozen Highlands"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "trainer",
+         "name": "Ambrose Bruss",
+         "location": "Blackshire"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "trainer",
+         "name": "Su Lang Manchu",
+         "location": "Paradise Valley "
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Identify",
+         "name": "Shelia Loumpus",
+         "location": "New Sorpigal"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Identify",
+         "name": "Leon Lazaru",
+         "location": "Castle Ironfist"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Identify",
+         "name": "Hans Clifford",
+         "location": "Free Haven "
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Merchant",
+         "name": "Livia Farrel",
+         "location": "Free Haven"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Merchant",
+         "name": "Casey Ludwig",
+         "location": "Mire of the Damned"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Merchant",
+         "name": "Will Ottoman",
+         "location": "Silver Cove "
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Repair",
+         "name": "Bernard Jacobs",
+         "location": "Misty Islands"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Repair",
+         "name": "Cyrus Montebleu",
+         "location": "Silver Cove"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Repair",
+         "name": "Ryan Tracle",
+         "location": "Frozen Highlands "
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Bodybuilding",
+         "name": "Erik Salzburg",
+         "location": "New Sorpigal"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Bodybuilding",
+         "name": "Olaf Berring",
+         "location": "Castle Ironfist"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Bodybuilding",
+         "name": "Jason Traveller",
+         "location": "Free Haven "
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Meditation",
+         "name": "Victor Hazen",
+         "location": "New Sorpigal"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Meditation",
+         "name": "Clyde Dagget",
+         "location": "Silver Cove"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Meditation",
+         "name": "Norio Ariganaka",
+         "location": "Misty Islands "
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Perception",
+         "name": "Tara D'Cathay",
+         "location": "New Sorpigal"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Perception",
+         "name": "Shoshi Pertoniki",
+         "location": "Bootleg Bay"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Perception",
+         "name": "Macro Galigulia",
+         "location": "Mire of the Damned"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Diplomacy",
+         "name": "Walter Hargreaves",
+         "location": "Castle Ironfist"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Diplomacy",
+         "name": "Sylvester Moor",
+         "location": "Free haven"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Diplomacy",
+         "name": "Jacques Khol",
+         "location": "Frozen Highlands "
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Disarm",
+         "name": "Tylor Tailor",
+         "location": "Castle Ironfist"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Disarm",
+         "name": "Ivan Magyar",
+         "location": "Free Haven"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Disarm",
+         "name": "Gabe Lester",
+         "location": "Frozen Highlands "
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Learning",
+         "name": "Donald Retzer",
+         "location": "New Sorpigal"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Learning",
+         "name": "Elton Astrogate",
+         "location": "Castle Ironfist"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Learning",
+         "name": "John Tuck",
+         "location": "Silver Cove"
+      }
+   ],
    "mm7": [
       {
          "name": "Some blacksmiths",

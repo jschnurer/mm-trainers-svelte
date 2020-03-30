@@ -4,12 +4,15 @@
   import { onMount } from "svelte";
   import { Link } from "svelte-routing";
 
-  $: reqTrainers = $toDoStore.reduce((acc, reqSkill) => {
-    let ts = trainers.mm7.filter(
-      t => t.skill === reqSkill.skill && t.level === reqSkill.level
-    );
-    return acc.concat(ts);
-  }, []);
+  export let game = "";
+
+  $: reqTrainers = ($toDoStore[game] || [])
+    .reduce((acc, reqSkill) => {
+      let ts = trainers[game].filter(
+        t => t.skill === reqSkill.skill && t.level === reqSkill.level
+      );
+      return acc.concat(ts);
+    }, []);
 
   $: locations = [...new Set(reqTrainers.map(x => x.location))];
 
@@ -72,7 +75,9 @@
 
 {#each locations.sort((a, b) => (a < b ? -1 : 1)) as locName}
   <h2>{locName}</h2>
-  {#each reqTrainers.filter(t => t.location === locName).sort(sortSkills) as skill}
+  {#each reqTrainers
+    .filter(t => t.location === locName)
+    .sort(sortSkills) as skill}
     <div class={skill.category}>
       <button
         class="delete-button"

@@ -2,7 +2,10 @@
   import { scale } from "svelte/transition";
   import toDoStore from "./toDoStore.js";
 
-  $: count = $toDoStore.length;
+  export let game = "";
+
+  $: toDosForGame = $toDoStore[game] || [];
+  $: count = toDosForGame.length;
 </script>
 
 <style>

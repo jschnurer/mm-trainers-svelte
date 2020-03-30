@@ -2,7 +2,7 @@ import { writable } from "svelte/store";
 
 const storeKey = "mm-skill-trainer-checklist";
 const storedValue = localStorage.getItem(storeKey);
-let initialValue = [];
+let initialValue = {};
 
 if (storedValue) {
   initialValue = JSON.parse(storedValue);
