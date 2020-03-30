@@ -1850,5 +1850,742 @@
          "skill": "Stealing",
          "level": "Grandmaster"
       }
+   ],
+   "mm8": [
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Air",
+         "name": "Reshie",
+         "location": "Dagger Wound Islands"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Air",
+         "name": "Hollis Stormeye",
+         "location": "Balthazar Lair"
+      },
+      {
+         "category": "Magic",
+         "level": "Grand",
+         "skill": "Air",
+         "name": "Cloud Nedlon",
+         "location": "Plane of Air"
+      },
+      {
+         "category": "Other",
+         "level": "Expert",
+         "skill": "Alchemy",
+         "name": "Tabitha Watershed",
+         "location": "Alvar"
+      },
+      {
+         "category": "Other",
+         "level": "Master",
+         "skill": "Alchemy",
+         "name": "Kethry Treasurestone",
+         "location": "Murmurwoods"
+      },
+      {
+         "category": "Other",
+         "level": "Grand",
+         "skill": "Alchemy",
+         "name": "Ich",
+         "location": "Blood Drop"
+      },
+      {
+         "category": "Other",
+         "level": "Expert",
+         "skill": "Armsmaster",
+         "name": "Norbert Slayer",
+         "location": "Dragon Hunter's Camp"
+      },
+      {
+         "category": "Other",
+         "level": "Master",
+         "skill": "Armsmaster",
+         "name": "Lasatin the Scarred",
+         "location": "Dagger Wounds Islands (north)"
+      },
+      {
+         "category": "Other",
+         "level": "Grand",
+         "skill": "Armsmaster",
+         "name": "Jasper Steelcoif",
+         "location": "Regna"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Axe",
+         "name": "Herald Foestryke",
+         "location": "Dragon Hunter's Camp"
+      },
+      {
+         "category": "Weapon",
+         "level": "Master",
+         "skill": "Axe",
+         "name": "Jasp Hunter",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Weapon",
+         "level": "Grand",
+         "skill": "Axe",
+         "name": "Garic Senjac",
+         "location": "Balthazar Lair"
+      },
+      {
+         "category": "Other",
+         "level": "Expert",
+         "skill": "Body Building",
+         "name": "Menasaur",
+         "location": "Dagger Wound Islands (north)"
+      },
+      {
+         "category": "Other",
+         "level": "Master",
+         "skill": "Body Building",
+         "name": "Kenneth Otterton",
+         "location": "Dragon Hunter's Camp"
+      },
+      {
+         "category": "Other",
+         "level": "Grand",
+         "skill": "Body Building",
+         "name": "Mikel Smithson",
+         "location": "Rust"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Body",
+         "name": "Zevah Poised",
+         "location": "Island east of Blood Drop"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Body",
+         "name": "Tugor Arin",
+         "location": "Dragon Hunter's Camp"
+      },
+      {
+         "category": "Magic",
+         "level": "Grand",
+         "skill": "Body",
+         "name": "Critias Snowtree",
+         "location": "Murmurwoods"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Bow",
+         "name": "Shivan Keeneye",
+         "location": "Blood Drop"
+      },
+      {
+         "category": "Weapon",
+         "level": "Master",
+         "skill": "Bow",
+         "name": "Oberic Nosewort",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Weapon",
+         "level": "Grand",
+         "skill": "Bow",
+         "name": "Solis",
+         "location": "Alvar"
+      },
+      {
+         "category": "Armor",
+         "level": "Expert",
+         "skill": "Chain",
+         "name": "Tobren Forgewright",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Armor",
+         "level": "Master",
+         "skill": "Chain",
+         "name": "Halian Eversmyle",
+         "location": "Alvar"
+      },
+      {
+         "category": "Armor",
+         "level": "Grand",
+         "skill": "Chain",
+         "name": "Seline Burnkindle",
+         "location": "Regna"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Dagger",
+         "name": "Lori Vespers",
+         "location": "Alvar"
+      },
+      {
+         "category": "Weapon",
+         "level": "Master",
+         "skill": "Dagger",
+         "name": "Jobber",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Weapon",
+         "level": "Grand",
+         "skill": "Dagger",
+         "name": "Karla Nirses",
+         "location": "Regna"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Dark Elf",
+         "name": "Fedwin Dervish",
+         "location": "Alvar"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Dark Elf",
+         "name": "Lanshee Caverhill",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Magic",
+         "level": "Grand",
+         "skill": "Dark Elf",
+         "name": "Ton Agraynel",
+         "location": "Alvar"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Dark",
+         "name": "Patwin Darkenmoore",
+         "location": "Alvar"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Dark",
+         "name": "Carla Umberpool",
+         "location": "Shadowspire"
+      },
+      {
+         "category": "Magic",
+         "level": "Grand",
+         "skill": "Dark",
+         "name": "Sithicus Shadowrunner",
+         "location": "Regna"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Dragon",
+         "name": "Ishton",
+         "location": "Dragon Cave"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Dragon",
+         "name": "Erthint",
+         "location": "Dragon Cave"
+      },
+      {
+         "category": "Magic",
+         "level": "Grand",
+         "skill": "Dragon",
+         "name": "Klain Scarwing",
+         "location": "Dragon Cave"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Earth",
+         "name": "Ostrin Grivic",
+         "location": "Blood Drop"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Earth",
+         "name": "Dorothy Sablewood",
+         "location": "Alvar"
+      },
+      {
+         "category": "Magic",
+         "level": "Grand",
+         "skill": "Earth",
+         "name": "Griven",
+         "location": "Plane of Earth"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Fire",
+         "name": "Taren Temper",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Fire",
+         "name": "Solomon Steele",
+         "location": "Alvar"
+      },
+      {
+         "category": "Magic",
+         "level": "Grand",
+         "skill": "Fire",
+         "name": "Burn",
+         "location": "Plane of Fire"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Light",
+         "name": "Archibald Dawnsglow",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Light",
+         "name": "Lunius Dawnbringer",
+         "location": "Murmurwoods"
+      },
+      {
+         "category": "Magic",
+         "level": "Grand",
+         "skill": "Light",
+         "name": "Aldrin Cleareye",
+         "location": "Regna"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Mind",
+         "name": "Shane Krewlen",
+         "location": "Alvar"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Mind",
+         "name": "Barthine Lotts",
+         "location": "Balthazar's Lair"
+      },
+      {
+         "category": "Magic",
+         "level": "Grand",
+         "skill": "Mind",
+         "name": "Gilad Dreamwright",
+         "location": "Murmurwoods"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Spirit",
+         "name": "Straton Hawthorne",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Spirit",
+         "name": "Bethold Kern",
+         "location": "Dragon Hunter's Camp"
+      },
+      {
+         "category": "Magic",
+         "level": "Grand",
+         "skill": "Spirit",
+         "name": "Lasiter Ravensight",
+         "location": "Murmurwoods"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Water",
+         "name": "Ulbrecht Pederton",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Water",
+         "name": "Gregory Mist",
+         "location": "Rust"
+      },
+      {
+         "category": "Magic",
+         "level": "Grand",
+         "skill": "Water",
+         "name": "Black Current",
+         "location": "Plane of Water"
+      },
+      {
+         "category": "Magic",
+         "level": "Expert",
+         "skill": "Vampire",
+         "name": "Flynn Shador",
+         "location": "Twilight"
+      },
+      {
+         "category": "Magic",
+         "level": "Master",
+         "skill": "Vampire",
+         "name": "Douglas Dirthmoore",
+         "location": "Twilight"
+      },
+      {
+         "category": "Magic",
+         "level": "Grand",
+         "skill": "Vampire",
+         "name": "Payge Arachnia",
+         "location": "Twilight"
+      },
+      {
+         "category": "Other",
+         "level": "Expert",
+         "skill": "Disarm Trap",
+         "name": "Chevon Wist",
+         "location": "Dagger Wound Islands"
+      },
+      {
+         "category": "Other",
+         "level": "Master",
+         "skill": "Disarm Trap",
+         "name": "Kelli Lightfingers",
+         "location": "Alvar"
+      },
+      {
+         "category": "Other",
+         "level": "Grand",
+         "skill": "Disarm Trap",
+         "name": "Gareth Lifter",
+         "location": "Regna"
+      },
+      {
+         "category": "Other",
+         "level": "Expert",
+         "skill": "ID Item",
+         "name": "Kyra Sparkman",
+         "location": "Alvar"
+      },
+      {
+         "category": "Other",
+         "level": "Master",
+         "skill": "ID Item",
+         "name": "Eithian",
+         "location": "Dagger Wound Island"
+      },
+      {
+         "category": "Other",
+         "level": "Grand",
+         "skill": "ID Item",
+         "name": "Elzbet Roggen",
+         "location": "Twilight"
+      },
+      {
+         "category": "Other",
+         "level": "Expert",
+         "skill": "ID Monster",
+         "name": "Tessa Maker",
+         "location": "Dragon Hunter's Camp"
+      },
+      {
+         "category": "Other",
+         "level": "Master",
+         "skill": "ID Monster",
+         "name": "Matric Keenedge",
+         "location": "Murmurwoods"
+      },
+      {
+         "category": "Other",
+         "level": "Grand",
+         "skill": "ID Monster",
+         "name": "Blacken Stonecleaver",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Other",
+         "level": "Expert",
+         "skill": "Learning",
+         "name": "Petra Mithrit",
+         "location": "Murmurwoods"
+      },
+      {
+         "category": "Other",
+         "level": "Master",
+         "skill": "Learning",
+         "name": "Mistspring",
+         "location": "Twilight"
+      },
+      {
+         "category": "Other",
+         "level": "Grand",
+         "skill": "Learning",
+         "name": "Wanda Lightsworn",
+         "location": "Dragon Hunter's Camp"
+      },
+      {
+         "category": "Other",
+         "level": "Expert",
+         "skill": "Meditation",
+         "name": "Alton Putnam",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Other",
+         "level": "Master",
+         "skill": "Meditation",
+         "name": "Gretchin Nevermore",
+         "location": "Alvar"
+      },
+      {
+         "category": "Other",
+         "level": "Grand",
+         "skill": "Meditation",
+         "name": "Lenord Nightcrawler",
+         "location": "Twilight"
+      },
+      {
+         "category": "Other",
+         "level": "Expert",
+         "skill": "Merchant",
+         "name": "Fishner Thomb",
+         "location": "Island east of Blood Drop"
+      },
+      {
+         "category": "Other",
+         "level": "Master",
+         "skill": "Merchant",
+         "name": "Fenton Iverson",
+         "location": "Alvar"
+      },
+      {
+         "category": "Other",
+         "level": "Grand",
+         "skill": "Merchant",
+         "name": "Raven Quicktoungue",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Other",
+         "level": "Expert",
+         "skill": "Perception",
+         "name": "Nightwalker",
+         "location": "Alvar"
+      },
+      {
+         "category": "Other",
+         "level": "Master",
+         "skill": "Perception",
+         "name": "Helga Steeleye",
+         "location": "Twilight"
+      },
+      {
+         "category": "Other",
+         "level": "Grand",
+         "skill": "Perception",
+         "name": "Balen Suretrail",
+         "location": "Balthazar's Lair"
+      },
+      {
+         "category": "Other",
+         "level": "Expert",
+         "skill": "Regeneration",
+         "name": "Kethric Tarent",
+         "location": "Rust"
+      },
+      {
+         "category": "Other",
+         "level": "Master",
+         "skill": "Regeneration",
+         "name": "William Sampson",
+         "location": "Murmurwoods"
+      },
+      {
+         "category": "Other",
+         "level": "Grand",
+         "skill": "Regeneration",
+         "name": "Ush the Many Tailed",
+         "location": "Dagger Wound Islands"
+      },
+      {
+         "category": "Other",
+         "level": "Expert",
+         "skill": "Repair",
+         "name": "Evandar Lotts",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Other",
+         "level": "Master",
+         "skill": "Repair",
+         "name": "Quick Jeni",
+         "location": "Dragon Hunter's Camp"
+      },
+      {
+         "category": "Other",
+         "level": "Grand",
+         "skill": "Repair",
+         "name": "Quethrin Tonk",
+         "location": "Murmurwoods"
+      },
+      {
+         "category": "Armor",
+         "level": "Expert",
+         "skill": "Leather",
+         "name": "Thadin",
+         "location": "Dagger Wound Islands"
+      },
+      {
+         "category": "Armor",
+         "level": "Master",
+         "skill": "Leather",
+         "name": "Shamus Hollyfield",
+         "location": "Balthazar Lair"
+      },
+      {
+         "category": "Armor",
+         "level": "Grand",
+         "skill": "Leather",
+         "name": "Medwari Elmsmire",
+         "location": "Rust"
+      },
+      {
+         "category": "Armor",
+         "level": "Expert",
+         "skill": "Plate",
+         "name": "Bone",
+         "location": "Island east of Blood Drop"
+      },
+      {
+         "category": "Armor",
+         "level": "Master",
+         "skill": "Plate",
+         "name": "Botham",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Armor",
+         "level": "Grand",
+         "skill": "Plate",
+         "name": "Seth Ironfist",
+         "location": "Dragon Hunter's Camp"
+      },
+      {
+         "category": "Armor",
+         "level": "Expert",
+         "skill": "Shield",
+         "name": "Quillain Moore",
+         "location": "Alvar"
+      },
+      {
+         "category": "Armor",
+         "level": "Master",
+         "skill": "Shield",
+         "name": "Sheldon Nightwood",
+         "location": "Twilight"
+      },
+      {
+         "category": "Armor",
+         "level": "Grand",
+         "skill": "Shield",
+         "name": "Peryn Reaverston",
+         "location": "Dragon Hunter's Camp"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Mace",
+         "name": "Lisha Sourbrow",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Weapon",
+         "level": "Master",
+         "skill": "Mace",
+         "name": "Robert Morningstar",
+         "location": "Dragon Hunter's Camp"
+      },
+      {
+         "category": "Weapon",
+         "level": "Grand",
+         "skill": "Mace",
+         "name": "Brother Hearthsworn",
+         "location": "Rust"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Spear",
+         "name": "Matric Townsaver",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Weapon",
+         "level": "Master",
+         "skill": "Spear",
+         "name": "Ashandra Withersmythe",
+         "location": "Alvar"
+      },
+      {
+         "category": "Weapon",
+         "level": "Grand",
+         "skill": "Spear",
+         "name": "Yarrow",
+         "location": "Dagger Wound Islands"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Staff",
+         "name": "Puddle Thain",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Weapon",
+         "level": "Master",
+         "skill": "Staff",
+         "name": "Celia Stone",
+         "location": "Rust"
+      },
+      {
+         "category": "Weapon",
+         "level": "Grand",
+         "skill": "Staff",
+         "name": "Tristen Stillwater",
+         "location": "Twilight"
+      },
+      {
+         "category": "Weapon",
+         "level": "Expert",
+         "skill": "Sword",
+         "name": "Aerie Luodrin",
+         "location": "Ravenshore"
+      },
+      {
+         "category": "Weapon",
+         "level": "Master",
+         "skill": "Sword",
+         "name": "Jaycin Cardron",
+         "location": "Dragon Hunter's Camp"
+      },
+      {
+         "category": "Weapon",
+         "level": "Grand",
+         "skill": "Sword",
+         "name": "Miyon Dragontracker",
+         "location": "Regna"
+      }
    ]
 }
